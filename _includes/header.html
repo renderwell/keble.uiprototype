@@ -1,0 +1,122 @@
+<header class="site-header">
+    <div class="row site-header-inner">
+        <div class="clearfix">
+            <a class="site-logo left" href="{{ site.baseurl }}/" role="button" tabindex="0">
+                <img class="show-for-medium-up" src="{{ "/img/kc_logo.gif" | prepend: site.baseurl }}" />
+                <img class="show-for-small-only" src="{{ "/img/kc_logo_mobile.gif" | prepend: site.baseurl }}" />
+            </a>
+
+            <a class="site-logo-right right" href="{{ site.baseurl }}/">
+                <img src="{{ "/img/oxford_emblem.gif" }}" />
+            </a>
+        </div>
+
+        <div class="row collapse">
+            <div class="column medium-3 medium-offset-9">
+                <form name="searchform" 
+                    method="get" 
+                    action="#" 
+                    id="site-search"
+                    class="site-search row" 
+                    >
+
+                    <div class="column small-10">
+                        <input name="textsearch" 
+                               type="text"
+                               placeholder="search" 
+                               value="" 
+                               title="Search Site" 
+                               accesskey="4" 
+                               id="searchGadget" 
+                               class="search-text round">
+                    </div>
+
+                    <div class="column small-2">
+                        <button class="postfix" name="submit">
+                            <i class="icon-search">
+                                <span class="hide">Search</span>
+                            </i>
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <nav class="top-bar" data-topbar role="navigation">
+            <ul class="title-area">
+                <li class="name"></li>
+
+                <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+                <li class="toggle-topbar menu-icon"><a href="#"><span></span></a></li>
+            </ul>
+
+            <section class="top-bar-section">
+              <!-- Right Nav Section -->
+                <ul class="left">
+                    <li class="active has-dropdown">
+                        <a href="#">Home</a>
+
+                        <ul class="dropdown">
+                            <li class="has-dropdown">
+                                <a href="#">Sliders</a>
+
+                                <ul class="dropdown">
+                                    <li>
+                                        <a href="#">Flex Slider</a>
+                                    </li>
+
+                                    <li>
+                                        <a href="#">Owl Slider</a>
+                                    </li>
+                                </ul>
+                            </li>
+
+                            <li class="has-dropdown">
+                                <a href="#">Widgets</a>
+
+                                <ul class="dropdown">
+                                    <li>
+                                        <a href="#">Links</a>
+                                    </li>
+
+                                    <li class="active">
+                                        <a href="#">Carousel</a>
+                                    </li>
+
+                                    <li>
+                                        <a href="#">Social Icons</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li class="has-dropdown">
+                        <a href="#">About Keble</a>
+
+                        <ul class="dropdown">
+                            <li>
+                                <a href="#">Left Sidebar</a>
+                            </li>
+
+                            <li class="active">
+                                <a href="#">Right Sidebar</a>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li class="has-dropdown">
+                        <a href="#">Prospective Students</a>
+
+                        <ul class="dropdown">
+                            <li>
+                                <a href="#">Tabs</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </section>
+        </nav>
+    </div>
+</header>
+

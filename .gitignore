@@ -1,0 +1,9 @@
+_site
+/bower_components/*
+/node_modules/*
+/css/*
+/js/*
+.fontello
+_scss/fontello
+/.jekyll-metadata
+

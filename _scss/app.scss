@@ -1,0 +1,70 @@
+@import "settings";
+@import "foundation";
+@import "fontello/css/_fontello.scss";
+
+body {
+    background-color: #efede2;
+}
+
+.site-header {
+    background-image: url(../img/bg_portal_top.gif);
+    background-repeat: repeat-x;
+    .site-header-inner {
+        background-image: url(../img/bg_portal_header.gif);
+    }
+    .site-logo {
+        margin-bottom: 9px;
+        margin-left: 11px;
+        margin-top: 21px;
+    }
+    .site-logo-right {
+        margin-right: 7px;
+        margin-top: 9px;
+    }
+    .site-search {
+        margin-top: 11px;
+        input, button {
+            margin-bottom: 0;
+        }
+        input {
+            background-color: #474747;    
+            border: 0 none;
+            border-radius: 20px;
+            color: #ffffff;
+            font-size: 0.8rem;
+            height: 1.5rem;
+            margin-top: 7px;
+            padding: 0 1rem;
+        }
+        button {
+            background-color: transparent;
+            border: 0;
+            padding: 0;
+        }
+        .column:first-child {
+            padding-right: 0;
+        }
+        .column:last-child {
+            padding-left: 0;
+        }
+    }
+}
+
+.page-content {
+    background-color: #ffffff;
+}
+
+footer {
+    background-color: #b3b6a4;
+}
+
+
+
+
+
+
+
+
+
+
+
