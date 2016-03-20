@@ -45,12 +45,20 @@ module.exports = function(grunt) {
                     'bower_components/foundation/js/vendor/fastclick.js',
                     'bower_components/foundation/js/vendor/placeholder.js',
                     'bower_components/foundation/js/foundation/foundation.js',
+                    'bower_components/foundation/js/foundation/foundation.tab.js',
                     'bower_components/foundation/js/foundation/foundation.topbar.js',
                     'bower_components/foundation/js/foundation/foundation.offcanvas.js',
                     'bower_components/foundation/js/foundation/foundation.equalizer.js'
                 ],
                 dest: 'js/foundation.js',
             },
+            app: {
+                src: [
+                    'bower_components/jquery-cycle2/build/jquery.cycle2.js',
+                    '_js/app.js'
+                ],
+                dest: 'js/app.js',
+            }
         },
 
         copy: {
@@ -74,7 +82,9 @@ module.exports = function(grunt) {
                         src: [
                             'bower_components/foundation/js/vendor/jquery.js',
                             'bower_components/foundation/js/vendor/modernizr.js',
-                            '_js/app.js'
+                            'bower_components/react/react.js',
+                            'bower_components/react/react-dom.js',
+                            '_js/app-react.js'
                             ],
                         flatten: true,
                         filter: 'isFile',
@@ -93,4 +103,3 @@ module.exports = function(grunt) {
     grunt.registerTask('build', ['sass', 'concat', 'copy']);
     grunt.registerTask('default', ['build', 'watch']);
 }
-
