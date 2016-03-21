@@ -81,10 +81,10 @@ module.exports = function(grunt) {
                         cwd: '',
                         src: [
                             'bower_components/foundation/js/vendor/jquery.js',
-                            'bower_components/foundation/js/vendor/modernizr.js',
-                            'bower_components/react/react.js',
-                            'bower_components/react/react-dom.js',
-                            '_js/app-react.js'
+                            'bower_components/foundation/js/vendor/modernizr.js'
+                            //'bower_components/react/react.js',
+                            //'bower_components/react/react-dom.js',
+                            //'_js/app-react.js'
                             ],
                         flatten: true,
                         filter: 'isFile',
