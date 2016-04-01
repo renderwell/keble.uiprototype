@@ -28,7 +28,8 @@ module.exports = function(grunt) {
             },
             js: {
                 files: '_js/*.js',
-                tasks: ['copy:js']
+                tasks: ['concat:app',
+                        'copy:js']
             },
             fontello: {
                 files: '_scss/fontello/css/*.scss',
